@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #0F172A;
+
+}
+
+#main {
+    position: relative;
+    overflow: hidden;
+    background-color: #00000095;
+}
+
+@font-face {
+    font-family: a;
+    src: url("./jost-variable.ttf");
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("./Gilroy-Regular.ttf");
+}
+
+a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+
+#page1 {
+    width: 100vw;
+    /* height: 100vh; */
+    position: relative;
+}
+
+
+#page1>nav {
+    background-color: #0f172a71;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 10vh;
+    width: 100vw;
+}
+
+#page1>nav>img {
+    margin-top: -1vw;
+    margin-bottom: -2vw;
+    width: 10%;
+    object-fit: cover;
+    /* border-radius: 5px; */
+}
+
+#right-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#right-nav>div {
+    padding: 10px 20px;
+    color: #fff;
+    font-family: a;
+    font-size: 1.5vw;
+
+}
+
+#faq {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 5vw;
+    width: 100%;
+    height: 100%;
+    font-family: a;
+    color: #fafafa;
+    gap: 1.5vw;
+}
+
+.title {
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.question {
+    font-size: 3vw;
+
+}
+
+.answer {
+    font-size: 1.5vw;
+    border-bottom: 2px solid #fafafa;
+    padding-bottom: 2vw;
+}
+
+
+#footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.left-f {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1vw;
+}
+
+.right-f {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    padding: 2vw;
+}
+
+.left-child-f {
+    height: 100%;
+    width: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-top: 1vw;
+    gap: 0.5vw;
+    font-family: a;
+    /* align-items: center; */
+    /* justify-content: right; */
+}
+
+.left-child-f>div {
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: #fafafa;
+
+}
+
+.right-child-f {
+    height: 100%;
+    width: 30%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    font-family: a;
+
+    padding-left: 5vw;
+    padding-top: 1vw;
+
+}
+
+.right-child-f>div {
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: #fafafa;
+}
+
+
+.right-f>.subscribe {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    background-color: #ffffff2d;
+    border-radius: 5px;
+    color: #fff;
+    padding: 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.subscribe>h1 {
+    font-family: a;
+    font-size: 2.5vw;
+}
+
+.subscribe>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    height: 40%;
+    width: 75%;
+    font-family: Gilroy;
+    font-size: 1.5vw;
+    color: #fff;
+
+}
+
+#copyright {
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5vw;
+}
+
+#copyright>div {
+    font-size: 1.5vw;
+    font-family: a;
+}
